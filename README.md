@@ -30,5 +30,6 @@ code:
 ```bash
 #!/bin/bash
 
-
+# This will install required dependencies to run code in notebook.
+uv run --with jupyter jupyter lab
 ```
